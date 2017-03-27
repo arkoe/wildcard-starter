@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WildCard applicatie</title>
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<h1 style="text-align: center;">OHRA WildCard</h1>
+
+				<h3>Nieuwe schade melden</h3>
+				<div class="form-group">
+					<label>Type schade</label>
+					<select id="type" class="form-control">
+						<option>Kapotte telefoon</option>
+						<option>Ingebroken in auto</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label>E-mailadres</label>
+					<input type="text" id="email" class="form-control" />
+				</div>
+
+				<div class="form-group">
+					<input type="submit" id="submit" value="Schade melden" class="btn btn-success" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/web3.js"></script>
+	<script type="text/javascript" src="js/dapp.js"></script>
+</body>
+</html>
